@@ -4,9 +4,8 @@ header {
 
     /* background-color: #333; */
     /* color: #CBB26A; */
-    background-color: #4ba9e9;
+    background-color: #ececec;
     color: #fff;
-    box-shadow: 0 0.5rem 0.5rem 0 lightgray;
     font-weight: 700;
 
     padding: 10px;
@@ -23,6 +22,7 @@ header h1 {
     font-size: 34px;
     flex-shrink: 0;
     font-weight: bold;
+    color: goldenrod;
 }
 
 header img {
@@ -51,8 +51,6 @@ nav li {
 nav li:hover>ul {
     display: block;
     /* background-color: #333; */
-    
-    background-color: #4ba9e9;
 }
 
 nav ul ul {
@@ -62,7 +60,6 @@ nav ul ul {
     left: 0;
 
     /* background-color: #fff; */
-    background-color: #4ba9e9;
 
     padding: 10px;
     /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
@@ -76,15 +73,13 @@ nav ul ul li {
 }
 
 nav ul a:link,
-a:visited ,.logout {
+a:visited ,.logout,.btn-log-list li button{
     font-size: medium;
 
     /* background-color: #333; */
-    background-color: #fff;
     /* color: #CBB26A; */
     color: #4ba9e9;
     /* border: 2px solid #CBB26A; */
-    border: 2px solid #4ba9e9;
 
 
     padding: 10px 20px;
@@ -94,22 +89,18 @@ a:visited ,.logout {
 }
 
 nav ul a:hover,
-nav ul a:active {
+nav ul a:active,.btn-log-list li button:hover {
     /* background-color: #CBB26A; */
-    background-color: #4ba9e9;
-    /* color: #333; */
-    color: #fff;
-    border: 2px solid #fff;
-
-    scale: calc(1.2);
+    
+    text-decoration: underline;
 }
 
 .search-form {
     font-family: "Lucida Calligraphy", cursive;
     display: flex;
     align-items: start;
-    margin-left: 3%;
     width: 100%;
+    justify-content: center;
 }
 
 .search-input {
@@ -166,8 +157,8 @@ nav ul a:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5rem;
-    height: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
 }
 .logout:hover , .cart-icon a:hover{
